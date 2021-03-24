@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.login.LoginActivity"
+    android:background="@drawable/gradient_background1"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="@string/strSignInText"
+        android:textColor="@color/colorText"
+        android:layout_centerHorizontal="true"
+        android:includeFontPadding="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signIn_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:drawableStart="@drawable/google_icon"
+        android:drawableLeft="@drawable/google_icon"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape"
+        android:textColor="@color/colorButtonText"
+        android:text="@string/strSignInMessage"
+        android:layout_margin="20dp"
+        android:textAlignment="center"/>
+
+</RelativeLayout>

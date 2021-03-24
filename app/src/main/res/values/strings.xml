@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Medbud</string>
+    <string name="strMyInfo">My Information</string>
+    <string name="strInventoryManagement">Inventory Management</string>
+    <string name="strReminderManagement">Manage Reminders</string>
+    <string name="strHistory">History</string>
+    <string name="strPlaceholder">placeholder</string>
+    <string name="strCntdWarning">Warning Icon</string>
+    <string name="strCntdEdit">Edit Icon</string>
+    <string name="strCntdDelete">Delete Icon</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="strPopupMedNameHint">Enter the name of the medicine</string>
+    <string name="strInvMedColorHint">Medicine colour</string>
+    <string name="strInvMedQuantityHint">Enter quantity details</string>
+    <string name="strInvPopupHeader">Add new medicine</string>
+    <string name="strInvPopupHeaderEdit">Edit Inventory</string>
+    <string name="strInvPopupColorHint">Select color</string>
+    <string name="strCancel">Cancel</string>
+    <string name="strAdd">Add</string>
+    <string name="strEdit">Done</string>
+    <string name="strOk">Ok</string>
+    <string name="strInvPopupQuantityWarningHint">Quantity at which to remind a refill (default 5):</string>
+
+    <array name="arrMedTypes">
+        <item>Tablet</item>
+        <item>Capsule</item>
+        <item>Syrup</item>
+        <item>Drop</item>
+    </array>
+    <array name="arrMedQuantityType">
+        <item>unit(s)</item>
+        <item>ml</item>
+        <item>drop(s)</item>
+    </array>
+    <array name="arrMedRemTimeDesc">
+        <item>Before Breakfast</item>
+        <item>During Breakfast</item>
+        <item>After Breakfast</item>
+        <item>Before Lunch</item>
+        <item>During Lunch</item>
+        <item>After Lunch</item>
+        <item>Before Dinner</item>
+        <item>During Dinner</item>
+        <item>After Dinner</item>
+    </array>
+
+    <array name="arrDayName">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </array>
+
+    <array name="arrGender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="strShedule">Schedule</string>
+    <string name="strDaily">Daily</string>
+    <string name="strWeekly">Weekly</string>
+    <string name="strEveryday">Everyday</string>
+    <string name="strDuration">Duration</string>
+    <string name="strFrom">From:</string>
+    <string name="strTo">To:</string>
+    <string name="strNumberOfDays">Number of Days:</string>
+    <string name="strRoutine">Routine</string>
+    <string name="strDescription">Description</string>
+    <string name="strTime">Time</string>
+    <string name="strQty">Qty.</string>
+    <string name="strSetReminder">Set Reminder</string>
+    <string name="strAddNew">+Add New</string>
+    <string name="strSignInText">Sign in with your Google Account</string>
+    <string name="strInvPopupMedName">Medicine name:</string>
+    <string name="strInvPopupMedType">Medicine type:</string>
+    <string name="strInvPopupMedQuantity">Enter quantity/amount of medicine you currently have at hand:</string>
+    <string name="strName">Name:</string>
+    <string name="strHintName">Enter your name</string>
+    <string name="strAge">Age:</string>
+    <string name="strHintAge">Enter your age</string>
+    <string name="strGender">Gender:</string>
+    <string name="strDoctorName">Doctor\'s Name:</string>
+    <string name="strHintDrName">Enter your doctor\'s name</string>
+    <string name="strMedicalHistory">Medical History:</string>
+    <string name="strHintMedHistory">Enter your medical history (if any)</string>
+    <string name="strPrescription">Your Prescription:</string>
+    <string name="strPrescriptionUpload">Upload an image of your prescription</string>
+    <string name="strSaveInfo">Save Information</string>
+    <string name="strSave">Save</string>
+    <string name="strPrescriptionHint">Tap the image to select your prescription</string>
+    <string name="reminder_message">It\'s Time to take your medicine</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="send_message">Send SOS</string>
+    <string name="strMedInventoryNotSetupWarning">You haven\'t set up your inventory yet. Please choose Inventory from home screen and set up your Pill Inventory first in order to continue with Reminders.</string>
+    <string name="strGoBack">Go Back</string>
+    <string name="strHome">Home</string>
+    <string name="strInventory">Inventory</string>
+    <string name="strUserInfo">User Info</string>
+    <string name="strReminders">Reminders</string>
+    <string name="strMedTimeTake">It\'s Time for your Medicine</string>
+    <string name="strstr">User Info</string>
+    <string name="strRemNoMessage">No Reminders set yet</string>
+    <string name="strSOS">SOS Emergency</string>
+    <string name="strSOSto">Send SOS to :</string>
+    <string name="strSosText">SOS Text :</string>
+    <string name="strSOStext">SOS</string>
+    <string name="strSignInMessage">Sign in via Google</string>
+    <string name="strInvEmpty">Your Inventory is empty</string>
+    <string name="strNoHistory">Nothing to show yet</string>
+</resources>

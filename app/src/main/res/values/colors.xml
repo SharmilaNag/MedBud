@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00d2ff</color>
+    <color name="colorPrimaryDark">#3a7bd5</color>
+    <color name="colorAccent">#40C4FF</color>
+    <color name="colorText">#ffffff</color>
+    <color name="colorTextDark">#000000</color>
+    <color name="colorBackground">#fffaa0</color>
+    <color name="colorBlue">#ff0099cc</color>
+    <color name="colorLightBlue">#bae1ff</color>
+    <color name="colorLightCream">#ffffdd</color>
+    <color name="colorLightGrey">#D3D3D0</color>
+    <color name="colorButtonText">#FFFFFF</color>
+    <color name="colorTextBlue">#0A1012</color>
+    <color name="colorTransparent">#00FDFBFB</color>
+<!--    <color name="colorGradientOneStart">#00d2ff</color>-->
+<!--    <color name="colorGradientOneEnd">#3a7bd5</color>-->
+    <color name="colorGradientTwoStart">#cfd9df</color>
+    <color name="colorGradientTwoEnd">#e2ebf0</color>
+    <color name="colorRed">#D32825</color>
+    <color name="colorTextGrey">#434141</color>
+    <color name="colorStroke">#9F9D9D</color>
+</resources>

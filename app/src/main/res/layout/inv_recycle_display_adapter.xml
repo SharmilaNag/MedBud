@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/inventoryCardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="12dp"
+        app:cardMaxElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="6dp"
+            android:background="@color/colorText">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:weightSum="4">
+
+                <ImageView
+                    android:id="@+id/invDisplayImgMedType"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/tablet"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/invDisplayTvMedName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/strPlaceholder"
+                    android:layout_margin="8dp"
+                    android:padding="5dp"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="22sp"
+                    android:textColor="@color/colorTextDark"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/invDisplayImgvWarning"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="10dp"
+                    android:background="#D10808"
+                    android:contentDescription="@string/strCntdWarning"
+                    app:srcCompat="@android:drawable/ic_dialog_alert" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/invDisplayTvMedQuantity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3.1"
+                    android:text="@string/strPlaceholder"
+                    android:layout_margin="8dp"
+                    android:padding="5dp"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/invDisplayImgvEdit"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="15dp"
+                    app:srcCompat="@drawable/edit"
+                    android:contentDescription="@string/strCntdEdit" />
+
+                <ImageView
+                    android:id="@+id/invDisplayImgvDelete"
+                    android:layout_width="35dp"
+                    android:layout_height="42dp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/delete"
+                    android:contentDescription="@string/strCntdDelete"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

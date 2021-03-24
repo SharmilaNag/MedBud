@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="12dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/sixteen_dp"
+            android:paddingTop="@dimen/sixteen_dp"
+            android:paddingRight="@dimen/sixteen_dp"
+            android:paddingBottom="@dimen/sixteen_dp">
+
+            <TextView
+                android:id="@+id/remReceiveTvMedTIme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextDark"
+                android:textSize="40sp"
+                tools:text="23:20" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/sixteen_dp"
+            android:paddingTop="@dimen/eight_dp"
+            android:paddingRight="@dimen/sixteen_dp"
+            android:paddingBottom="@dimen/eight_dp">
+
+            <ImageView
+                android:id="@+id/remReceiveImgMedType"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/llNameContainer"
+                android:contentDescription="@null"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/tablet" />
+
+            <LinearLayout
+                android:id="@+id/llNameContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/linearLayout"
+                android:layout_toLeftOf="@+id/linearLayout"
+                android:layout_toEndOf="@+id/remReceiveImgMedType"
+                android:layout_toRightOf="@+id/remReceiveImgMedType"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <TextView
+                    android:id="@+id/remReceiveTvMedName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorTextDark"
+                    tools:text="Paracetamol"
+                    android:layout_margin="5dp"/>
+
+                <TextView
+                    android:id="@+id/remReceiveTvDosage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlue"
+                    tools:text="1.0 adhesive(s)"
+                    android:textSize="14sp"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true">
+
+
+                <ImageView
+                    android:id="@+id/remReceiveImgIgnoreMed"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/background_configure_alarm_button"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/remReceiveImgTakeMed"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/background_take_alarm_button"
+                    android:contentDescription="@null"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

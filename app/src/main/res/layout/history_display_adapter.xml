@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="12dp"
+        app:cardMaxElevation="12dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="6dp"
+            android:padding="5dp"
+            android:background="@color/colorText"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:weightSum="4"
+                >
+
+                <ImageView
+                    android:id="@+id/historyDisplayType"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/tablet"
+                    />
+
+                <TextView
+                    android:id="@+id/historyDisplayMedName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/strPlaceholder"
+                    android:layout_margin="8dp"
+                    android:padding="5dp"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="22sp"
+                    android:textColor="@color/colorTextDark"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/historyDisplayDue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/strPlaceholder"
+                android:padding="5dp"
+                android:fontFamily="@font/roboto"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/historyDisplayTaken"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/strPlaceholder"
+                android:padding="5dp"
+                android:fontFamily="@font/roboto"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/historyDisplayQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/strPlaceholder"
+                android:padding="5dp"
+                android:fontFamily="@font/roboto"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

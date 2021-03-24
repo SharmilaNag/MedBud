@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="arrMedTypesImages">
+        <item>@drawable/tablet</item>
+        <item>@drawable/capsule</item>
+        <item>@drawable/syrup</item>
+        <item>@drawable/eyedrop</item>
+    </integer-array>
+</resources>
